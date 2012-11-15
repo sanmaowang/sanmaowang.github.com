@@ -1,4 +1,5 @@
 /*****************************************************************************/
+/* Author:Sanmao Wang
 /*
 /* Common
 /*
@@ -15,62 +16,28 @@ html, body {
   height: 100%;
 }
 
-body {
-  background-color: white;
-  font: 13.34px helvetica, arial, clean, sans-serif;
-  *font-size: small;
-  text-align: center;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
-}
-
-h1 {
-  margin-bottom: 1em;
-}
-
-p {
-  margin: 1em 0;
-}
-
 a {
-  color: #00a;
+  color: #3F8E77;
+  text-decoration: none;
+  border:none;
 }
 
 a:hover {
   color: black;
 }
 
-a:visited {
-  color: #a0a;
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
 }
 
-table {
-  font-size: inherit;
-  font: 100%;
+img, img a{
+  border:none;
 }
-
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-
-  ul.posts li {
-    line-height: 1.75em;
-  }
-
-  ul.posts span {
-    color: #aaa;
-    font-family: Monaco, "Courier New", monospace;
-    font-size: 80%;
-  }
 
 /*****************************************************************************/
 /*
@@ -81,33 +48,46 @@ ul.posts {
 .site {
   font-size: 110%;
   text-align: justify;
-  width: 40em;
+  width: 48em;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
 }
 
-.title {
-  color: #a00;
-  font-weight: bold;
-  margin-bottom: 2em;
+.logo{
+  float:right;
+  width:60px;
+  height: 60px;
+  display: block;
 }
 
-  .site .title a {
-    color: #a00;
+.nav {
+  color: #aaa;
+  font-weight: bold;
+  margin-bottom: 4em;
+  padding-top: 2em;
+}
+
+ul.nav li{
+  list-style: none;
+  display: line-block;
+  float:left;
+  margin-right:20px;
+}
+  .site .nav a {
+    color: #aaa;
     text-decoration: none;
   }
 
-  .site .title a:hover {
+  .site .nav a:hover {
     color: black;
   }
 
-  .site .title a.extra {
-    color: #aaa;
+  .site .nav a.active {
+    color: #3F8E77;
     text-decoration: none;
-    margin-left: 1em;
   }
 
-  .site .title a.extra:hover {
+  .site .nav a.active:hover {
     color: black;
   }
 
@@ -120,6 +100,7 @@ ul.posts {
     color: #666;
     border-top: 4px solid #eee;
     margin-top: 2em;
+    padding-top: 1em;
     overflow: hidden;
   }
 
@@ -148,50 +129,17 @@ ul.posts {
 /*
 /*****************************************************************************/
 
-#post {
-
-}
-
-  /* standard */
-
-  #post pre {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    padding: 0 .4em;
+  #related {
+    margin-top: 2em;
   }
-
-  #post ul,
-  #post ol {
-    margin-left: 1.35em;
-  }
-
-  #post code {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    font-size: 85%;
-    padding: 0 .2em;
-  }
-
-    #post pre code {
-      border: none;
-    }
-
-  /* terminal */
-
-  #post pre.terminal {
-    border: 1px solid black;
-    background-color: #333;
-    color: white;
-  }
-
-  #post pre.terminal code {
-    background-color: #333;
-  }
-
-#related {
-  margin-top: 2em;
-}
 
   #related h2 {
     margin-bottom: 1em;
+  }
+
+  #photo{
+    float: left;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 10px;
   }
