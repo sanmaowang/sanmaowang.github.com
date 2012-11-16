@@ -26,11 +26,11 @@ tags: [17zuoye, work]
 
 <a href="http://linblog.b0.upaiyun.com/lin/17zuoye/hompage.jpg" alt=""><img src="http://linblog.b0.upaiyun.com/lin/17zuoye/homepage.jpg" width='630' alt='homepage desgin'/></a>
 
-首页没有满足目标，需需要用户点击，跳转至新页面了解一起作业才能产生兴趣，产生兴趣后回到首页再返回至首页注册或登陆。而了解一起作业点击进去后是：
+首页没有满足目标，需要用户点击了解一起作业，跳转至新页面了解一起作业才能产生兴趣。而了解一起作业点击进去后是：
 
 <a href="http://linblog.b0.upaiyun.com/lin/17zuoye/intro.jpg" alt=""><img src="http://linblog.b0.upaiyun.com/lin/17zuoye/intro.jpg" width='630' alt='homepage desgin'/></a>
 
-这个了解详情的页面绝不是一个好的设计。而至于需吐槽之处，我就不一一指出了。
+这个了解详情的页面绝不是一个好的设计。而至于可吐槽之处，我就不一一指出了。
 
 ##问题
 
@@ -38,14 +38,11 @@ tags: [17zuoye, work]
 
 1. 用户输入区域 Login/ Register 在最左侧，设计将其独立出背景图却显得较为狭窄；
 
-2. 三种Button样式，蓝色/绿色/橘黄色，bootstrap的Default buttons里蓝色是Action，绿色是Success，橘黄色是Warning。 按钮颜色过多和右侧背景的淡雅不是特别协调；
+2. 三种Button样式，蓝色/绿色/橘黄色，Bootstrap的Default Buttons里蓝色是Action，绿色是Success，橘黄色是Warning。 按钮颜色过多和右侧背景的淡雅不是特别协调；
 
 3. 链接和非链接的热线号码，以及Logo均为蓝色，不合理，且Logo不可点击；  
 
 4. 页面没有介绍或任何Slogan，首次访问的用户到达首页，不会立即知道这个网站是做什么的，没有号召力和感染力，对自己品牌没有任何好处和树立；背景图片较为平淡，用户不会有冲动注册；
-
-##我的解决方案
--未完-
 
 
 > 参考资料  
