@@ -1,0 +1,41 @@
+---
+layout: post
+title: "关于17zuoye的首页设计"
+description: "about the 17zuoye's homepage desgin"
+category: products
+tags: [17zuoye, work]
+---
+{% include JB/setup %}
+
+17zuoye 就目前看，还是一个web app。tencent的cdc有一篇[工具型网站首页的设计思考](http://cdc.tencent.com/?p=5220)。我结合其文章的内容以及我自己的思考，对我们的网站首页设计提出一些建议。
+
+	首页的目标  
+	《designing for the social web》一书将用户的使用分为几个步骤：不了解——感兴趣——第一次使用——常规使用——有情感。而首页对于前面三个步骤至关重要！
+ 	
+<a href="http://cdc.tencent.com/wp-content/uploads/2012/02/13.jpg" alt=""><img src="http://cdc.tencent.com/wp-content/uploads/2012/02/13.jpg" width='630' alt='homepage desgin'/></a>
+
+	这样看来，首页有两个目标：  
+	1. 让不了解的用户了解网站并产生兴趣，最终促成用户使用。  
+	2. 让有兴趣的用户尽快开始使用。
+
+以这样两个目标来看我们的首页，如图：
+
+<a href="http://linblog.b0.upaiyun.com/lin/17zuoye/hompage.jpg" alt=""><img src="http://linblog.b0.upaiyun.com/lin/17zuoye/homepage.jpg" width='630' alt='homepage desgin'/></a>
+
+首页没有满足目标，需需要用户点击，跳转至新页面了解一起作业才能产生兴趣，产生兴趣后回到首页再返回至首页注册或登陆。而了解一起作业点击进去后是：
+
+<a href="http://linblog.b0.upaiyun.com/lin/17zuoye/intro.jpg" alt=""><img src="http://linblog.b0.upaiyun.com/lin/17zuoye/intro.jpg" width='630' alt='homepage desgin'/></a>
+
+这个了解详情的页面绝不是一个好的设计。而至于需吐槽之处，我就不一一指出了。
+
+我们回到首页来说，首页的问题我列举以下：
+
+1. 用户输入区域 Login/ Register 在最左侧，设计将其独立出背景图却显得较为狭窄；
+2. 三种Button样式，蓝色/绿色/橘黄色，bootstrap的Default buttons里蓝色是Action，绿色是Success，橘黄色是Warning。 按钮颜色过多和右侧背景的淡雅不是特别协调；
+3. 链接和非链接的热线号码，以及Logo均为蓝色，不合理，且Logo不可点击；  
+4. 页面没有介绍或任何Slogan，首次访问的用户到达首页，不会立即知道这个网站是做什么的，没有号召力和感染力，对自己品牌没有任何好处和树立；背景图片较为平淡，用户不会有冲动注册；
+
+> 参考资料  
+> 
+> Tencent CDC [工具型网站首页的设计思考](http://cdc.tencent.com/?p=5220)
+> 
