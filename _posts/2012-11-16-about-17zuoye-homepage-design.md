@@ -14,7 +14,7 @@ tags: [17zuoye, work]
 	首页的目标  
 	《designing for the social web》一书将用户的使用分为几个步骤：不了解——感兴趣——第一次使用——常规使用——有情感。而首页对于前面三个步骤至关重要！
  	
-<a href="http://cdc.tencent.com/wp-content/uploads/2012/02/13.jpg" alt=""><img src="http://cdc.tencent.com/wp-content/uploads/2012/02/13.jpg" width='630' alt='homepage desgin'/></a>
+<a href="http://cdc.tencent.com/wp-content/uploads/2012/02/13.jpg" alt="首页目标" ><img src="http://cdc.tencent.com/wp-content/uploads/2012/02/13.jpg" width='630' alt='homepage desgin'/></a>
 
 	这样看来，首页有两个目标：  
 	1. 让不了解的用户了解网站并产生兴趣，最终促成用户使用。  
@@ -24,11 +24,11 @@ tags: [17zuoye, work]
 
 以这样两个目标来看我们的首页，如图：
 
-<a href="http://linblog.b0.upaiyun.com/lin/17zuoye/hompage.jpg" alt=""><img src="http://linblog.b0.upaiyun.com/lin/17zuoye/homepage.jpg" width='630' alt='homepage desgin'/></a>
+<a href="http://linblog.b0.upaiyun.com/lin/17zuoye/hompage.jpg" alt="" class="lightbox"><img src="http://linblog.b0.upaiyun.com/lin/17zuoye/homepage.jpg" width='630' alt='homepage desgin'/></a>
 
 首页没有满足目标，需要用户点击了解一起作业，跳转至新页面了解一起作业才能产生兴趣。而了解一起作业点击进去后是：
 
-<a href="http://linblog.b0.upaiyun.com/lin/17zuoye/intro.jpg" alt=""><img src="http://linblog.b0.upaiyun.com/lin/17zuoye/intro.jpg" width='630' alt='homepage desgin'/></a>
+<a href="http://linblog.b0.upaiyun.com/lin/17zuoye/intro.jpg" alt="" class="lightbox"><img src="http://linblog.b0.upaiyun.com/lin/17zuoye/intro.jpg" width='630' alt='homepage desgin'/></a>
 
 这个了解详情的页面绝不是一个好的设计。而至于可吐槽之处，我就不一一指出了。
 
