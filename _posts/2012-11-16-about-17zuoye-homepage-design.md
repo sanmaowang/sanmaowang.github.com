@@ -24,7 +24,7 @@ tags: [17zuoye, work]
 
 以这样两个目标来看我们的首页，如图：
 
-<a href="http://linblog.b0.upaiyun.com/lin/17zuoye/hompage.jpg" alt="" class="lightbox"><img src="http://linblog.b0.upaiyun.com/lin/17zuoye/homepage.jpg" width='630' alt='homepage desgin'/></a>
+<a href="http://linblog.b0.upaiyun.com/lin/17zuoye/homepage.jpg" alt="" class="lightbox"><img src="http://linblog.b0.upaiyun.com/lin/17zuoye/homepage.jpg" width='630' alt='homepage desgin'/></a>
 
 首页没有满足目标，需要用户点击了解一起作业，跳转至新页面了解一起作业才能产生兴趣。而了解一起作业点击进去后是：
 
