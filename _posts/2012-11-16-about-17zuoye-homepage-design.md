@@ -36,7 +36,7 @@ tags: [17zuoye, work]
 
 我们回到首页来说，首页的问题我列举以下：
 
-1. 用户输入区域 Login/ Register 在最左侧，设计将其独立出背景图却显得较为狭窄；
+1. 用户输入区域 Login/ Register 在最左侧，设计将其独立出背景图却显得较为狭窄，而只能用类似placeholder占位符方式作为label名；
 
 2. 三种Button样式，蓝色/绿色/橘黄色，Bootstrap的Default Buttons里蓝色是Action，绿色是Success，橘黄色是Warning。 按钮颜色过多和右侧背景的淡雅不是特别协调；
 
@@ -44,6 +44,24 @@ tags: [17zuoye, work]
 
 4. 页面没有介绍或任何Slogan，首次访问的用户到达首页，不会立即知道这个网站是做什么的，没有号召力和感染力，对自己品牌没有任何好处和树立；背景图片较为平淡，用户不会有冲动注册；
 
+5. 没有填写用户名或者密码，会直接alert弹窗提示错误；若填写错误帐号和密码，错误提示出现在输入框顶部，和注册中的表单错误提示方式不同；
+
+6. 在IE6/7浏览器显示：
+> 一起作业紧急通知：微软倡导您对IE6、IE7说再见，为了您能够正常使用一起作业，请升级浏览器，点击图标免费下载： IE8中文浏览器  
+
+	文案不专业（微软：关我嘛事）
+	
+<a href="http://linblog.b0.upaiyun.com/lin/17zuoye/intro.jpg" alt="" class="lightbox"><img src="http://linblog.b0.upaiyun.com/lin/17zuoye/notice.jpg" width='630' alt='homepage desgin'/></a>
+
+##我的想法
+<ol>
+<li><p>重新设计 logo，按钮颜色需符合逻辑，页面颜色视觉上相关的需逻辑相关</p></li> 
+<li><p>突出登陆而非注册，这是由需求决定</p></li>   
+<li><p>提出明确价值主张</p></li>
+<li><p>首页内容可放每期特别重要的活动</p></li> 
+<li><p>统一错误提示方式和样式</p></li>
+<li><p>修改提示文案</p></li>
+</ol>
 
 > 参考资料  
 > 
