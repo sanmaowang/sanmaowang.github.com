@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "前端的几个小问题"
+title: "几个前端小问题"
 description: "little problem about front-end wor0"
 category: work
 tags: [work, code, iframe, onerror]
