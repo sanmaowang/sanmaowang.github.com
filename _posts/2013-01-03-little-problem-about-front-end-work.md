@@ -13,7 +13,11 @@ tags: [work, code, iframe, onerror]
 
 当页面中存在Iframe时，又遇到了SP运营商的流氓劫持时，也就是它也用iframe来套我们产品，形成多层iframe套用的情况。一些组件的运用会出现问题，例如我们产品中的iframe垮域自适应高度。  
 
-直接使用parent来找父级会遇到问题，操作frame失效，需有一些改动，这里有很好的说明：[js操作frameset frame对象](http://lillian1205.iteye.com/blog/558057)
+我们发现直接使用parent来找父级会遇到问题，操作frame都失效了，需有一些改动，这里有很好的说明：[js操作frameset frame对象](http://lillian1205.iteye.com/blog/558057)
+
+	var ifrm = this.parent.$("#" + getRequest("data-frameid"));
+	if(ifrm){
+		this.self.parent.frameElement.style.height = height + 'px';
 
 #### IMG onerror
 
@@ -31,9 +35,7 @@ tags: [work, code, iframe, onerror]
 	
 #### Flash Object classid 
 
-遇到的一个插入flash问题。在指定了classid之后，Flash无法在ff/chrome/safari下显示，只能在IE下显示。而你如果不指定classid，对IE来说会有麻烦。这一特性和IE的ActiveX控件有关，必须得指定。
-那么如何让flash在ff/chrome/safari下正常显示呢？
-既然是现代浏览器，当然使用HTML5啦！
+遇到的一个插入flash问题。在指定了classid之后，Flash无法在ff/chrome/safari下显示，只能在IE下显示。而你如果不指定classid，对IE来说会有麻烦。如果没有classid，IE会向服务器发送请求询问此object的类型，服务器会返回keep alive的连接，这样IE会去一直等待服务器返回类型。那么如何让flash在ff/chrome/safari下正常显示呢？可以使用
 
 	<embed src="**.swf"/>
 
