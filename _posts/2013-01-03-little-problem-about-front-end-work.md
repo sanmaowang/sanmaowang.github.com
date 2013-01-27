@@ -16,8 +16,7 @@ tags: [work, code, iframe, onerror]
 我们发现直接使用parent来找父级会遇到问题，操作frame都失效了，需有一些改动，这里有很好的说明：[js操作frameset frame对象](http://lillian1205.iteye.com/blog/558057)
 
 	var ifrm = this.parent.$("#" + getRequest("data-frameid"));
-	if(ifrm){
-		this.self.parent.frameElement.style.height = height + 'px';
+	if(ifrm){ this.self.parent.frameElement.style.height = height + 'px'; }
 
 #### IMG onerror
 
@@ -35,11 +34,11 @@ tags: [work, code, iframe, onerror]
 	
 #### Flash Object classid 
 
-遇到的一个插入flash问题。在指定了classid之后，Flash无法在ff/chrome/safari下显示，只能在IE下显示。而你如果不指定classid，对IE来说会有麻烦。如果没有classid，IE会向服务器发送请求询问此object的类型，服务器会返回keep alive的连接，这样IE会去一直等待服务器返回类型。那么如何让flash在ff/chrome/safari下正常显示呢？可以使用
+遇到的一个插入flash问题。在指定了classid之后，Flash无法在ff/chrome/safari下显示，只能在IE下显示。而你如果不指定classid，对IE来说会有麻烦。*如果没有classid，IE会向服务器发送请求询问此object的类型，服务器会返回keep alive的连接，这样IE会去一直等待服务器返回类型。*那么如何在指定了classid还可以让flash在ff/chrome/safari下正常显示呢？可以使用
 
 	<embed src="**.swf"/>
 
-常规传参数使用param，可embed同样可以很好的传参数。
+常规传参数使用param，embed同样可以很好的传参数。
 
 	<param name="FlashVars" value="">
 	<embed src="**.swf" FlashVars = "" wmode=""></embed>
