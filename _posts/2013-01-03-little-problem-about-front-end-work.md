@@ -32,13 +32,27 @@ tags: [work, code, iframe, onerror]
 
 	<img src="avatar_01.jpg" onerror="this.onerror='';this.src=avatar_normal.jpg"/>
 	
-#### Flash Object classid 
+#### Flash Object  
 
-遇到的一个插入flash问题。在指定了classid之后，Flash无法在ff/chrome/safari下显示，只能在IE下显示。而你如果不指定classid，对IE来说会有麻烦。*如果没有classid，IE会向服务器发送请求询问此object的类型，服务器会返回keep alive的连接，这样IE会去一直等待服务器返回类型。*那么如何在指定了classid还可以让flash在ff/chrome/safari下正常显示呢？可以使用
+##### Classid
+Object标签在指定了classid之后，Flash无法在ff/chrome/safari下显示，只能在IE下显示。而你如果不指定classid，对IE来说会有麻烦。*如果没有classid，IE会向服务器发送请求询问此object的类型，服务器会返回keep alive的连接，这样IE会去一直等待服务器返回类型。*那么如何在指定了classid还可以让flash在ff/chrome/safari下正常显示呢？可以使用
 
 	<embed src="**.swf"/>
 
-常规传参数使用param，embed同样可以很好的传参数。
+常规传参数使用param，embed同样可以很好的传参。
 
 	<param name="FlashVars" value="">
 	<embed src="**.swf" FlashVars = "" wmode=""></embed>
+
+或者在Object中继续套一个Object：
+
+	<object classid="cid:">
+	<!--[if !IE ]>
+	<object>
+	</object>
+	<![endif]-->
+	</object>
+	
+#### IE6 Select 
+1. select在ie6下总是在最高层，设置z-index无效，会遮盖上层。据说这是微软的工程师偷懒了而导致的bug。要么采用iframe遮蔽，要么写脚本模拟select。还有一个方法，即有遮蔽层存在时隐藏select，没有的时候让其再显示。
+2. 改变select属性时，ie6报错未定义select属性什么的。打一个alert发现又没事了。这个需要在对select操作的时候加个setTimeout即可。
