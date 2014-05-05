@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "我的工作，17zuoye"
-description: "17zuoye.com"
-category: products 
-tags: [work, 17zuoye]
+title: 我的工作，17zuoye
+description: 17zuoye.com
+category: products
+tags:
+  - work
+  - 17zuoye
+published: true
 ---
 {% include JB/setup %}
 
@@ -88,7 +91,6 @@ tags: [work, 17zuoye]
 	3. 有利知识传承  
 	新来员工可以很快学习，进入角色  
 
-当然还有更多的项目管理和协作软件。工欲善其事必先利其器，最近刚刚给产品推荐了[Teamcola](https://teamcola.com)，我一直比较喜欢。  
  
 以上就是我关于这几个月的工作的一个简单总结，从我工作的方方面面。期待接下来的日子，我们能朝我们的既定目标勇往直前，我能收获更多的经验。
 
